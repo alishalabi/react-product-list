@@ -49,5 +49,5 @@ console.log(categoriesHistogramArray)
 
 
 export default data
-export {categoriesUnique, count}
+export {categoriesUnique, categoriesHistogramArray, count}
 // import data, {categories} from "./index"
