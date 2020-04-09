@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './data'
+
+// console.log(categories)
+
+// onclick -> setstate({ currentCategory: name})
+// render()
+// data.filter((prod) => currentCategory === prod.category)
 
 ReactDOM.render(
   <React.StrictMode>
