@@ -59,6 +59,11 @@ class App extends Component{
       <div className="App">
         <div className="button-div">
           {this.displayButtons()}
+          <button onClick={() => {
+            this.setCategory("All")
+          }}>
+            All
+          </button>
         </div>
         <div>
           <h4>
